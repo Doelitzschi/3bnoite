@@ -1,0 +1,28 @@
+package projetoControleBancario;
+
+public class ContaPoupança extends Conta {
+
+	private double reajusteMensal;
+
+	public ContaPoupança() {
+	}
+
+	public ContaPoupança(double reajusteMensal) {
+		this.reajusteMensal = reajusteMensal;
+	}
+
+	public double getReajusteMensal() {
+		return reajusteMensal;
+	}
+
+	public void setReajusteMensal(double reajusteMensal) {
+		this.reajusteMensal = reajusteMensal;
+	}
+	
+	public void AtualizarSaldos() {
+	}
+	
+	public void AtualizarSaldos(double reajuste) {
+		
+	}
+}

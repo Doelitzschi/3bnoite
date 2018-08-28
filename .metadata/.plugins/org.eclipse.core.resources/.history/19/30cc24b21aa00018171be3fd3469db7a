@@ -1,0 +1,27 @@
+package projetoControleBancario;
+
+public class GerenciadorContas {
+
+	public GerenciadorContas() {	
+	}
+	private double saldoTotal;
+
+
+	public GerenciadorContas(double saldoTotal) {
+		this.saldoTotal = saldoTotal;
+	}
+
+	public double getSaldoTotal() {
+		return saldoTotal;
+	}
+
+
+	public void setSaldoTotal(double saldoTotal) {
+		this.saldoTotal = saldoTotal;
+	}
+
+
+	public void totalizarSaldos(Conta conta[]) {
+
+	}
+}
